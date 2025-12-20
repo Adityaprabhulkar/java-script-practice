@@ -64,15 +64,13 @@
 // }
 
 //Q7
-let year = 2000;
-if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
-  // if((year%4==0 && year%100!=0 || year%400===0))
-  console.log("leap year");
-} else {
-  console.log("common year");
-}
-
-
+// let year = 2000;
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//   // if((year%4==0 && year%100!=0 || year%400===0))
+//   console.log("leap year");
+// } else {
+//   console.log("common year");
+// }
 
 // Q8
 // let num = 78;
@@ -112,12 +110,57 @@ if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
 //   console.log("c is greater ");
 // }
 
+// let n = 6;
 
-let n = 5;
-let fact =1 
+// if (n % 2 === 0 && n % 3 === 0) {
+//   console.log("divisiible by 6");
+// } else if (n % 2 === 0) {
+//   console.log("Even");
+// } else if (n % 3 === 0) {
+//   console.log("Divisible by 3");
+// } else {
+//   console.log("none");
+// }
 
-for (let i = 1; i <= n; i++) {
-  fact = fact * i
+// let marks = 50;
+// let bonus = 5;
+// marks += bonus;
+
+// if(marks>= 90){
+//   console.log("A+" + marks);
+// }else if(marks >= 75){
+//   console.log("A");
+// }else if (marks >= 50) {
+//   console.log("B" + marks);
+// }else {
+//   console.log("fail");
+// }
+
+// console.log(marks);
+
+// let num = 15;
+
+// if (num < 0) {
+//   console.log("negaitive");
+// } else if (num === 0) {
+//   console.log("Zero");
+// } else if (num > 0 && num >= 10 && num <= 20) {
+//   console.log("Small Positive");
+// } else if (num > 20) {
+//   console.log("large positive");
+// }
+
+
+let isLoggedIn = false;
+let hasPermission = false;
+
+if (isLoggedIn && hasPermission) {
+  console.log("Access Granted");
+} else if(isLoggedIn && !hasPermission){
+  console.log("Login Success, No Permission");
+}else if(!isLoggedIn && hasPermission) {
+  console.log("Error: Not Logged In");
+}else if(!isLoggedIn && !hasPermission) {
+  console.log("Access denied");
+  
 }
-
-console.log(fact);
