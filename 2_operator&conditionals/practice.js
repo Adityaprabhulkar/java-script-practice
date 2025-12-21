@@ -150,17 +150,15 @@
 //   console.log("large positive");
 // }
 
-
 let isLoggedIn = false;
 let hasPermission = false;
 
 if (isLoggedIn && hasPermission) {
   console.log("Access Granted");
-} else if(isLoggedIn && !hasPermission){
+} else if (isLoggedIn && !hasPermission) {
   console.log("Login Success, No Permission");
-}else if(!isLoggedIn && hasPermission) {
+} else if (!isLoggedIn && hasPermission) {
   console.log("Error: Not Logged In");
-}else if(!isLoggedIn && !hasPermission) {
+} else if (!isLoggedIn && !hasPermission) {
   console.log("Access denied");
-  
 }
