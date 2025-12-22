@@ -132,7 +132,7 @@
 //   let fact = 1;
 //   for (let i = 1; i <= num; i++) {
 //     fact = fact * i;
-//   } 
+//   }
 //   return fact;
 // };
 
@@ -149,7 +149,7 @@
 //         case '*': return  a * b;
 //         case '/': return  a / b;
 //         default: return "invalid input";
-        
+
 //     }
 //  };
 
@@ -157,19 +157,75 @@
 // ---------------------------------------------
 
 // const printNumber = (n) => {
-    
+
 //     for (let i = 1; i <= n; i++) {
 //         return n
 //     }
 // console.log(printNumber(5));
 
-const sumTillN = (n) => {
-    let sum = 0;
-    for (let i = 1; i <= n; i++ ) {
-        sum = sum + i
+// const sumTillN = (n) => {
+//     let sum = 0;
+//     for (let i = 1; i <= n; i++ ) {
+//         sum = sum + i
+//     }
+//     return sum;
+// }
+
+// console.log(sumTillN(9));
+
+// ----------------------------------------------
+
+// const PrintNumber = (n) => {
+//     let result = [];
+//     for (let i = 1; i <= n; i++) {
+//             if(i % 2 === 0)
+//             {
+//                  result.push(i);
+//             }
+//     }
+//     return result;
+// }
+
+
+
+// console.log(PrintNumber(10));
+
+
+// ------------------------------------------------
+
+// const printEvnenNumbers = (n) => {
+//     for (let i = 1; i <= n; i++) {
+//         if (i % 2 === 0) {
+//         console.log(i);
+//     }
+//   }
+// };
+
+// console.log(printEvnenNumbers(10));
+
+// ---------------------------------------------------
+
+// const printOddNumbera = (n) => {
+//     let result = [];
+//     for (let i = 0; i <= n; i++){
+//         if(i % 2 !== 0)
+//              {
+//             result.push(i)
+//         } 
+//     }
+//     return result;
+// };
+
+// console.log(printOddNumbera(10));
+
+const printOddNumber = (n) => {
+    for(let i = 0; i <= n; i++) {
+        if(i % 2 !== 0) {
+            console.log(i);
+            
+        }
     }
-    return sum;
 }
 
-console.log(sumTillN(9));
+printOddNumber(10);
 
