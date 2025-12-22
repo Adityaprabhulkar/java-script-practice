@@ -1,5 +1,4 @@
-let i = false;
-do {
-  console.log(i);
-  i--;
-} while (i > 0);
+let num = 7;
+if(num % 2 == 0 || num % 7 == 0) {
+    console.log(`${num} is prime number`);
+}else console.log(` ${num} is not a prime no`);
