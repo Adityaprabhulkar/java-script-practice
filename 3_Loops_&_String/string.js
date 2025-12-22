@@ -2,13 +2,13 @@
 // let lastName = "Prabhulkar";
 
 // let name = `Aditya
-//  Prabhulkar 
-//  This  
-//  my 
+//  Prabhulkar
+//  This
+//  my
 //  name`
 
 // console.log(name);
- 
+
 // let firstName = new String("Ram");
 // console.log( typeof firstName);
 
@@ -20,14 +20,12 @@
 // let ans = op1 + op2;
 // console.log(ans);
 
-
 // let string1 = "Mobile";
 // let string2 = "charger";
 
 // let finalSentence = ` I have a ${string1} and its ${string2}`
 
 // console.log(finalSentence);
-
 
 // let op1 = 'Hindi';
 // let op2 = 'English';
@@ -49,17 +47,8 @@
 
 let sentence = "Hello \\Jee  \\Kaise\\ \\ho \\saare";
 
-
-
-let words = sentence.split('\\');
+let words = sentence.split("\\");
 
 console.log(typeof words);
 
-
-// console.log( typeof words.join('-'));
-
-
-
-
-
-
+console.log(typeof words.join("-"));

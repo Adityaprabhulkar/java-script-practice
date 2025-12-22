@@ -87,8 +87,8 @@
 //   i--;
 // } while (i > 0);
 
-let i = false;
-do {
-  console.log(i);
-  i--; 
-} while (i > 0);
+// let i = false;
+// do {
+//   console.log(i);
+//   i--; 
+// } while (i > 0);

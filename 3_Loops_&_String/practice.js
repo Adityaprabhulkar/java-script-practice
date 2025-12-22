@@ -129,30 +129,30 @@
 //     }
 // }
 
- let  a = 0;
- let b = 1;
+//  let  a = 0;
+//  let b = 1;
 
- console.log(a);
- console.log(b);
+//  console.log(a);
+//  console.log(b);
 
- for (let i = 3; i <= 10; i++) {
-    let c = a + b;
-    console.log(c);
-    a=b;
-    b=c;
+//  for (let i = 3; i <= 10; i++) {
+//     let c = a + b;
+//     console.log(c);
+//     a=b;
+//     b=c;
     
- }
+//  }
 
- let str = "I am learining Javascript";
- let countSpace = 0;
+//  let str = "I am learining Javascript";
+//  let countSpace = 0;
 
- for(let i = 0; i <str.length; i++) {
-    if(str[i] === ' ') {
-        countSpace++
-    }
- }
+//  for(let i = 0; i <str.length; i++) {
+//     if(str[i] === ' ') {
+//         countSpace++
+//     }
+//  }
 
- console.log("Spaces:", countSpace);
+//  console.log("Spaces:", countSpace);
  
 
 
