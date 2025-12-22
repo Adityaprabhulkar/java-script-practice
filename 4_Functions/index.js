@@ -74,10 +74,10 @@
 
 // console.log(getExp(2,10));
 
-// const getExp =  (x,y) => {
-//     let ans = x**y;
-//     return ans;
-// }
+const getExp =  (x,y) => {
+    let ans = x**y;
+    return ans;
+}
 
-// console.log(getExp(2,10));
+console.log(getExp(2,10));
 
