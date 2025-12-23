@@ -1,16 +1,20 @@
 
-let obj = {
-    age:25,
-    wt:36,
-    ht:170,
-    greet: () => {
-        console.log("hello world");
-        
-    }
-}
 
-console.log(obj.age);
-obj.greet()
+
+
+
+// let obj = {
+//     age:25,
+//     wt:36,
+//     ht:170,
+//     greet: () => {
+//         console.log("hello world");
+        
+//     }
+// }
+
+// console.log(obj.age);
+// obj.greet()
 
 
 
