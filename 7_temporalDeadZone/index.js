@@ -1,6 +1,5 @@
 
 console.log(marks);
-
 console.log("aditya");
 console.log("love");
 
