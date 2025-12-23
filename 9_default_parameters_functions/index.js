@@ -23,16 +23,16 @@
 // solve(undefined)
 
 
-function getAge() {
-    return 14;
-}
+// function getAge() {
+//     return 14;
+// }
 
-function utiity(name = "Aditya", age=getAge() ) {
-    console.log(name, " ", age);
+// function utiity(name = "Aditya", age = getAge() ) {
+//     console.log(name, " ", age);
     
-}
+// }
 
-utiity();
+// utiity();
 
 
 
