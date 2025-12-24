@@ -1,25 +1,25 @@
-// document.querySelectorAll(selector);
+// // document.querySelectorAll(selector);
 
-// let myElement = document.getElementById("myPara");
-
-
-// =================={inner HTML}===================
-
-// let content = myElement.innerHTML;
-// console.log(content);
+// // let myElement = document.getElementById("myPara");
 
 
-// let newPara = "hello friends"
-// myElement.innerHTML = newPara
+// // =================={inner HTML}===================
 
-// =================={inner text}===================
+// // let content = myElement.innerHTML;
+// // console.log(content);
 
 
-// let myElement = document.getElementById("myPara")
+// // let newPara = "hello friends"
+// // myElement.innerHTML = newPara
 
-// let content = myElement.innerHTML;
+// // =================={inner text}===================
 
-// console.log(content);
+
+// // let myElement = document.getElementById("myPara")
+
+// // let content = myElement.innerHTML;
+
+// // console.log(content);
 
 // let newPara = "Hii";
 
@@ -65,12 +65,12 @@
 
 
 
-var paragraph = document.createElement('p');
-var text = document.createTextNode("This is dynamically added paragraph");
+// var paragraph = document.createElement('p');
+// var text = document.createTextNode("This is dynamically added paragraph");
 
-paragraph.appendChild(text)
+// paragraph.appendChild(text)
 
-document.body.appendChild(paragraph);
+// document.body.appendChild(paragraph);
 
 
 
