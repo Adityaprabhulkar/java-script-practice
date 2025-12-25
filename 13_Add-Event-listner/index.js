@@ -1,27 +1,27 @@
 
 
 
-// function textChange(event) {
-//     console.log(event);
+function textChange(event) {
+    console.log(event);
     
-//     let fpara = document.getElementById("fpara");
-//     fpara.textContent = " Aditya"
-// }
+    let fpara = document.getElementById("fpara");
+    fpara.textContent = " Aditya"
+}
 
-// let fpara = document.getElementById("fpara");
+let fpara = document.getElementById("fpara");
 
-// fpara.addEventListener('click', textChange);
+fpara.addEventListener('click', textChange);
 
-// fpara.removeEventListener('click', textChange);
+fpara.removeEventListener('click', textChange);
 
-// let anchorElement = document.getElementById('fanchor');
+let anchorElement = document.getElementById('fanchor');
 
-// anchorElement.addEventListener('click', function(event){
-//     event.preventDefault();
-//     anchorElement.textContent = "Click done"
-// })
+anchorElement.addEventListener('click', function(event){
+    event.preventDefault();
+    anchorElement.textContent = "Click done"
+})
 
-// let paras = document.querySelectorAll('p');
+let paras = document.querySelectorAll('p');
 
 function alartPara(event) {
     if(event.target.nodeName === 'SPAN')
