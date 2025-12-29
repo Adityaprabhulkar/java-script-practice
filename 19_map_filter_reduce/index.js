@@ -1,4 +1,4 @@
-// =========================={ map  }=========================
+// // =========================={ map  }=========================
 
 // const arr = [5, 1, 3, 2, 6];
 
@@ -31,7 +31,7 @@
 
 //  console.log(output);
 
-// ========================{filter}========================
+// // ========================{filter}========================
 
 // const arr = [5, 1, 3, 2, 6];
 
@@ -61,9 +61,9 @@
 
 // ========================{ Reduce }========================
 
-const arr = [5, 1, 3, 2, 6];
+// const arr = [5, 1, 3, 2, 6];
 
-// sum or max
+// // sum or max
 
 // function fundSum(arr) {
 //   let sum = 0;
@@ -85,14 +85,14 @@ const arr = [5, 1, 3, 2, 6];
 
 // console.log(findMax(arr));
 
-const output = arr.reduce(function(max, curr) {
-    if(curr > max){
-        max = curr;
-    }
-    return max;
-}, 0)
+// const output = arr.reduce(function(max, curr) {
+//     if(curr > max){
+//         max = curr;
+//     }
+//     return max;
+// }, 0)
 
-console.log(output);
+// console.log(output);
 
 
 // const output = arr.reduce(function (acc, curr) {
@@ -101,3 +101,7 @@ console.log(output);
 // }, 0);
 
 // console.log(output);
+
+
+
+
