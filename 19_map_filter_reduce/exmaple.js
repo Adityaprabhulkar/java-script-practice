@@ -16,7 +16,6 @@
 
 // console.log(output);
 
-
 // const output = users.map(x => x.firstName +" " + x.lastName);
 
 // console.log(output);
@@ -39,8 +38,52 @@
 
 // // ========================================================
 
-// const output = 
+// const output =
 // users.filter((x) => x.age < 30)
 // .map((x) => x.firstName);
 
 // console.log(output);
+
+// ================================================
+
+// Q1
+// const arr = [1, 2, 3, 4];
+
+// let output = arr.map((x) => x ** 2);
+
+// console.log(output);
+
+// ================================================
+
+// Q2
+// const arr = [{ firstName: "akshay", lastName: "saini" }];
+
+// let output = arr.map((x) => x.firstName + " " + x.lastName);
+
+// console.log(output);
+// ================================================
+
+// #Q7
+
+// const arr = [1, 2, 3, 4, 5, 6];
+
+// let output = arr.filter((x) => {
+//     return x % 2 == 0;
+// })
+
+// console.log(output);
+
+// ================================================
+// Q8
+
+ let arr = { name: "elon", age: 50 };
+
+ const output = arr.filter((x) => {
+    if(x.age > 30)
+     x.push([])
+ })
+
+ console.log(output);
+ 
+
+
