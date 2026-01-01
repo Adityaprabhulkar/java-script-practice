@@ -54,3 +54,11 @@ function proceedToPayment(orderId) {
 function validateCart(cart) {
   return false;
 }
+
+
+// HomeWork
+// {createOrder,
+// proceedToPayment,
+// showOrderSummary
+// updatePaymentWallet
+// }
