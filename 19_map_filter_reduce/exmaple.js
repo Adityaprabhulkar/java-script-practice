@@ -76,14 +76,14 @@
 // ================================================
 // Q8
 
- let arr = { name: "elon", age: 50 };
+//  let arr = { name: "elon", age: 50 };
 
- const output = arr.filter((x) => {
-    if(x.age > 30)
-     x.push([])
- })
+//  const output = arr.filter((x) => {
+//     if(x.age > 30)
+//      x.push([])
+//  })
 
- console.log(output);
+//  console.log(output);
  
 
 
