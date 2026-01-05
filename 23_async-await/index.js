@@ -75,13 +75,13 @@ const API_URL = "https://com/users/Adityaprabhulkar";
 
 // handlePromise();
 
-async function handlePromise() {
-  const data = await fetch(API_URL);
-  const jsonValue = await data.json();
-  console.log(jsonValue);
+// async function handlePromise() {
+//   const data = await fetch(API_URL);
+//   const jsonValue = await data.json();
+//   console.log(jsonValue);
 
-  console.log(err);
-}
+//   console.log(err);
+// }
 
-handlePromise().catch((err) => console.log(err));
+// handlePromise().catch((err) => console.log(err));
 
